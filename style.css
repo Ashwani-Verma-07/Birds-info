@@ -134,14 +134,25 @@ button:focus {
     font-size: 70%;
   }
   .image {
-    height: inherit;
-    width: 100%;
-    border-top: 250px solid #fff;
-    border-bottom: 250px solid #fff;
-    background-size: 100% 100%;
-    object-fit: fill;
+    max-width: 50%;
+    height: 50%;
+    border-top: 245px solid #fff;
+    border-bottom: 245px solid #fff;
+    background-size: 50% 50%;
+    object-fit: cover;
+    overflow: hidden;
   }
   .right-slide {
     background-repeat: no-repeat;
+  }
+  .info{
+    height: 100%;
+    width: 100%;
+    font-size: 2vh;
+    opacity: 0;
+   }
+  .image :hover {
+    opacity: 1;
+    opacity: fit-content;
   }
 }
