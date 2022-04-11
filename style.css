@@ -134,12 +134,14 @@ button:focus {
     font-size: 70%;
   }
   .image {
+
     max-width: 50%;
     height: 50%;
     background-size: 50% 50%;
     border-top: 245px solid #fff;
     border-bottom: 245px solid #fff;
     object-fit: cover;
+    overflow: hidden;
   }
   .right-slide {
     background-repeat: no-repeat;
@@ -147,6 +149,7 @@ button:focus {
   .info {
     height: 100%;
     width: 100%;
+    font-size: 2vh;
     opacity: 0;
   }
   .image :hover {
