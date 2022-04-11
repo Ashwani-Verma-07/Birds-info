@@ -134,6 +134,7 @@ button:focus {
     font-size: 70%;
   }
   .image {
+<<<<<<< HEAD
 
     max-width: 50%;
     height: 50%;
@@ -142,10 +143,27 @@ button:focus {
     border-bottom: 245px solid #fff;
     object-fit: cover;
     overflow: hidden;
+||||||| 5fd3632
+    height: inherit;
+    width: 100%;
+    border-top: 250px solid #fff;
+    border-bottom: 250px solid #fff;
+    background-size: 100% 100%;
+    object-fit: fill;
+=======
+    max-width: 50%;
+    height: 50%;
+    border-top: 245px solid #fff;
+    border-bottom: 245px solid #fff;
+    background-size: 50% 50%;
+    object-fit: cover;
+    overflow: hidden;
+>>>>>>> 5578b839cb1c3cd00301e8aff6c97995a4e20f75
   }
   .right-slide {
     background-repeat: no-repeat;
   }
+<<<<<<< HEAD
   .info {
     height: 100%;
     width: 100%;
@@ -156,4 +174,17 @@ button:focus {
     opacity: 1;
     opacity: fit-content;
   }
+||||||| 5fd3632
+=======
+  .info{
+    height: 100%;
+    width: 100%;
+    font-size: 2vh;
+    opacity: 0;
+   }
+  .image :hover {
+    opacity: 1;
+    opacity: fit-content;
+  }
+>>>>>>> 5578b839cb1c3cd00301e8aff6c97995a4e20f75
 }
