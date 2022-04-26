@@ -4,4 +4,4 @@
 # # Desktop-Hover_
 ![desktop-hover](https://user-images.githubusercontent.com/89683890/147589172-52d9e30f-d0c4-4844-b0f6-f089299b19fe.png)
 # # Live-link_
-[Birds_link](https://goofy-banach-b9b38a.netlify.app/)
+[Birds_link](https://ashwani-verma-07.github.io/Birds-info/)
